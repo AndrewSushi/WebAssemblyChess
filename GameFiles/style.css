@@ -1,0 +1,52 @@
+#board{
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 10px solid black;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.black{
+    background-color: rgb(181,136,99);
+}
+
+.white{
+    background-color: rgb(240,217,181);
+}
+
+img{
+    max-width: 90px;
+    max-height: 90px;
+    margin: auto;
+}
+
+.potential{
+    background-color: rgb(130,151,105);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.capture{
+    background-color: rgb(255, 135, 135) !important;
+    
+}
+
+.previous{
+    background-color: rgb(205,210,106);
+}
+
+.check{
+    background-color: red;
+}
